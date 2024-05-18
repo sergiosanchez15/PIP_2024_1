@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>850</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(85, 85, 127);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_3">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>301</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Britannic Bold</family>
+      <pointsize>30</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 30pt &quot;Britannic Bold&quot;;
+color: white;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;YO&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>40</y>
+      <width>301</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 30pt &quot;Britannic Bold&quot;;
+color: white;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;IA&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_msg">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>70</y>
+      <width>251</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_yo">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>150</y>
+      <width>300</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>860</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="salir">
+     <property name="geometry">
+      <rect>
+       <x>780</x>
+       <y>0</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#salir{
+background-color: rgba(0,0,0,0);
+color:white;
+border-top-right-radius: 25px;
+	font: 14pt &quot;MS Shell Dlg 2&quot;;
+}
+
+QPushButton#salir:hover{
+background-color: rgba(0,0,0,40);
+color:white;
+border-top-right-radius: 25px;
+	font: 14pt &quot;MS Shell Dlg 2&quot;;
+}
+
+QPushButton#salir:pressed{
+background-color: rgba(0,0,0,80);
+color:white;
+border-top-right-radius: 25px;
+	font: 14pt &quot;MS Shell Dlg 2&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>X</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="min">
+     <property name="geometry">
+      <rect>
+       <x>700</x>
+       <y>0</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#min{
+background-color: rgba(0,0,0,0);
+color:white;
+	font: 24pt &quot;MS Shell Dlg 2&quot;;
+}
+
+QPushButton#min:hover{
+background-color: rgba(0,0,0,40);
+color:white;
+	font: 24pt &quot;MS Shell Dlg 2&quot;;
+}
+
+QPushButton#min:pressed{
+background-color: rgba(0,0,0,80);
+color:white;
+	font: 24pt &quot;MS Shell Dlg 2&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_computadora">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>140</y>
+      <width>300</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="piedra">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>210</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#piedra{
+ background-color: rgb(255, 85, 127);;
+font: 20pt &quot;Britannic Bold&quot;;
+border: 2px solid white;
+border-radius: 25px;
+}
+
+QPushButton#piedra:hover{
+	 background-color: rgb(255, 85, 127);
+}
+
+QPushButton#piedra:pressed{
+  background-color: rgb(255, 85, 127);
+}</string>
+    </property>
+    <property name="text">
+     <string>Piedra</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="papel">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>290</y>
+      <width>180</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#papel{
+ background-color: rgb(255, 85, 127);
+font: 20pt &quot;Britannic Bold&quot;;
+border: 2px solid white;
+border-radius: 25px;
+}
+
+QPushButton#papel:hover{
+ background-color: rgb(255, 85, 127);
+}
+
+QPushButton#papel:pressed{
+ background-color: rgb(255, 85, 127);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Papel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="tijera">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>370</y>
+      <width>180</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#tijera{
+ background-color: rgb(255, 85, 127);
+font: 20pt &quot;Britannic Bold&quot;;
+border: 2px solid white;
+border-radius: 25px;
+}
+
+QPushButton#tijera:hover{
+ background-color: rgb(255, 85, 127);
+}
+
+QPushButton#tijera:pressed{
+ background-color: rgb(255, 85, 127);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Tijera</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="img.qrc"/>
+  <include location="../Imagenes/recursos1.qrc"/>
+ </resources>
+ <connections/>
+</ui>
